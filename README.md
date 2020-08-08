@@ -71,10 +71,29 @@ In order to run the code there a few neccesary steps:
 
 `$ pip install -r requirments.txt` 
 
-4. Create a data folder and put all datasets in the folder. The folder should be at the root directory of this git repository. 
+4. Create "data/classification_datasets" path and put all datasets in the folder classification_datasets. The folder data should be at the root directory of this git repository.
 
-5. run main.py from code folder
+5. Add ClassificationAllMetaFeatures.csv file to data folder
 
+6. run main.py from code folder
+
+The overall repository should look like that:
+
+```bash
+├───code
+│  
+│  
+├───data
+│   ├───backup
+│   ├───classification_datasets
+│   └───results
+├───figures
+│   ├───allDatasets
+│   ├───importances_meta
+│   └───winAlgo
+└───infiniteboost
+
+```
 ### Documentation
 #### Python Files 
 
